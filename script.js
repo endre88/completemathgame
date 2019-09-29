@@ -53,6 +53,7 @@ function startCountdown(){
 		document.getElementById("timeremainingvalue").innerHTML=timeremaining;
 	if (timeremaining==0){
 		stopCountdown();
+		timeremaining=60;
 		show("gameover");
 		document.getElementById("scoreend").innerHTML=score +".";
 		hide("timeremaining");
