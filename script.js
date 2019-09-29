@@ -68,6 +68,7 @@ function startCountdown(){
 
 function stopCountdown(){
 	clearInterval(action);
+	document.getElementById("timeremainingvalue").innerHTML=60;
 }
 
 function show(Id){
